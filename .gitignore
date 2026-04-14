@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/.env
+backend/menumate.db
+.venv/
+env/
+venv/
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+frontend.iml
+
+# Android
+android/local.properties
+android/key.properties
+android/app/src/main/res/values/strings.xml
+*.keystore
+*.jks
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
