@@ -73,3 +73,19 @@ All endpoints are available natively under your localhost schema:
 | `POST` | `/recommend-meal` | Ingests variables mapped inside `RecommendationRequest` to evaluate permutations of optimal food selections. Returns `<RecommendationResponse>` |
 | `POST` | `/save-plan` | Passes chosen `MealPlan` dictionaries safely over to the mock Postgres/Supabase module mapped into `MOCK_DB`. |
 | `GET` | `/plans` | Yields an optimized JSON array containing all historical saves for global referencing. |
+
+## Project Status
+
+This project is currently in prototype stage. The core workflow demonstrates menu upload, backend processing, meal recommendation logic, and saved meal plan retrieval.
+
+The current version is designed as a proof-of-concept and can be extended with real OCR or LLM Vision integration, cloud database storage, authentication, and deployment.
+
+## Future Improvements
+
+- Integrate real OCR or LLM Vision for menu text extraction
+- Connect the backend to PostgreSQL or Supabase
+- Add user authentication and saved user profiles
+- Improve recommendation logic using nutrition data and real menu datasets
+- Add dietary filters such as vegetarian, vegan, diabetic-friendly, and high-protein options
+- Deploy the backend and mobile app for live testing
+- Add screenshots, demo video, and sample user flow
